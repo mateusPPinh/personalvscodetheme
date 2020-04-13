@@ -1,0 +1,21 @@
+{
+    "name": "purple-for-code",
+    "displayName": "Purple for Code",
+    "description": "A nice purple theme for more productivity",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "purple",
+                "uiTheme": "vs-dark",
+                "path": "./themes/purple-color-theme.json"
+            }
+        ]
+    }
+}
